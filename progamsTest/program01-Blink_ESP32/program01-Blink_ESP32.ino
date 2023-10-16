@@ -1,0 +1,1 @@
+/* * Ejemplo blink ESP32s*/#define Led 2const int TIME = 1000; void setup() {  pinMode(Led, OUTPUT);}void loop() {  digitalWrite(Led, HIGH);  delay(TIME);  digitalWrite(Led, LOW);  delay(TIME);}
